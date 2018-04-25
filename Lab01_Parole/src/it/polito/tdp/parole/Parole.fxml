@@ -35,10 +35,11 @@
       <Insets bottom="10.0" left="10.0" right="10.0" top="10.0" />
    </padding>
    <bottom>
-      <HBox prefHeight="100.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+      <HBox BorderPane.alignment="CENTER">
          <children>
             <Button fx:id="btnReset" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#doReset" text="Reset" />
             <Button fx:id="btnCanc" alignment="CENTER_RIGHT" mnemonicParsing="false" onAction="#handleCanc" text="Cancella" />
+            <TextArea fx:id="txtTime" prefHeight="200.0" prefWidth="200.0" />
          </children>
       </HBox>
    </bottom>
