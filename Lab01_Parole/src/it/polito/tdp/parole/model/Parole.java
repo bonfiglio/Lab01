@@ -26,6 +26,10 @@ public class Parole {
 		// TODO
 		elenco.clear();
 	}
+	
+	public void cancella(String p) {
+		elenco.remove(p);
+	}
 
 	
 	
