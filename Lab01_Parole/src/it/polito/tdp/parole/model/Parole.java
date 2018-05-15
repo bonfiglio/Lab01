@@ -5,7 +5,8 @@ import java.util.*;
 public class Parole {
 	
 	private String par;
-	private List<String> elenco = new ArrayList<String>();
+	private List<String> elenco = new ArrayList<String>(); 
+	//  https://stackoverflow.com/questions/2279030/type-list-vs-type-arraylist-in-java
 	
 	public Parole() {
 		//TODO
